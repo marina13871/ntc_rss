@@ -1,0 +1,88 @@
+/* Шапка  */
+.header {
+    background-image: url(../img/background_picture_one.jpg);
+    min-height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    display: inline-flex;
+    padding-left: 65px;
+   
+}
+
+li a {
+    margin-top: 50px;
+    color: rgb(89, 161, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+li a:hover {
+    color:rgb(24, 0, 112);
+}
+
+.menu {
+    position: relative;
+    top: 40px;
+    min-height: 100px;
+    /* border-style: solid; */
+    box-shadow: 0px 0px 10px rgb(24, 0, 112);
+    background-color: white;
+}
+
+.main-flex {
+    display: flex;
+    min-height: 700px;
+}
+
+.second-flex {
+    margin: auto;
+}
+
+.main-title {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.zagone {
+    font-size: 75px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+}
+
+.zagtwo {
+    font-size: 40px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+}
+
+/* Основная часть */
+/* Освновные направления деятельности */
+
+.directions {
+    display: flex;
+    min-height: 700px;
+}
+
+.one {
+    margin: auto;
+}
+
+
+.zagolovok {
+    font-weight: bold;
+    color: blue;
+    font-size: 60px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+}
+
+.main-text {
+    color: black;
+    font-size: 25px;
+    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
+}
+
