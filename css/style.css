@@ -1,7 +1,7 @@
 /* Шапка  */
 .header {
     background-image: url(../img/background_picture_one.jpg);
-    min-height: 750px;
+    min-height: 900px;
     background-size: cover;
     background-position: center;
 }
@@ -14,7 +14,7 @@ li {
 
 li a {
     margin-top: 50px;
-    color: rgb(89, 161, 255);
+    color: rgb(207, 226, 255);
     text-transform: uppercase;
     text-decoration: none;
     font-size: large;
@@ -23,8 +23,9 @@ li a {
 }
 
 li a:hover {
-    color:rgb(24, 0, 112);
+    color:rgb(0, 106, 255);
 }
+
 
 .menu {
     position: relative;
@@ -32,7 +33,7 @@ li a:hover {
     min-height: 100px;
     /* border-style: solid; */
     box-shadow: 0px 0px 10px rgb(24, 0, 112);
-    background-color: white;
+    background-color: rgb(0, 33, 82);
 }
 
 .main-flex {
@@ -63,6 +64,13 @@ li a:hover {
 /* Основная часть */
 /* Освновные направления деятельности */
 
+.section-one {
+    background-image: url(../img/bands.jpg);
+    min-height: 750px;
+    background-size: cover;
+    background-position: center; 
+}
+
 .directions {
     display: flex;
     min-height: 700px;
@@ -72,17 +80,154 @@ li a:hover {
     margin: auto;
 }
 
-
 .zagolovok {
     font-weight: bold;
-    color: blue;
-    font-size: 60px;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    color: rgb(207, 226, 255);
+    font-size: 65px;
+    text-shadow: 1px 1px 10px rgb(0, 33, 82);
+    margin-bottom: 40px;
 }
 
 .main-text {
-    color: black;
+    color: rgb(207, 226, 255);
+    font-size: 25px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+}
+
+
+
+/* Стратегические цели и задачи */
+
+.section-two {
+    /* background-image: url(../img/bands.jpg); */
+    min-height: 750px;
+    /* background-size: cover;
+    background-position: center;  */
+    background: linear-gradient(to right, rgb(207, 226, 255) 61%, rgb(0, 33, 82) 39%);
+}
+
+.directions {
+    display: flex;
+    min-height: 700px;
+}
+
+.two {
+    margin: auto;
+}
+
+.strategic-objectives {
+    min-height: 750px;
+    display: inline-flex; 
+    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
+    
+}
+.zagolovok-two {
+    font-weight: bold;
+    color: rgb(0, 33, 82);
+    font-size: 65px;
+    /* text-shadow: 1px 1px 10px rgb(0, 33, 82); */
+    margin-bottom: 40px;
+}
+
+.main-text-two {
+    color: rgb(0, 33, 82);
     font-size: 25px;
     /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
 }
+/* Задачи */
+.tasks {
+    min-height: 750px;
+    display: inline-flex; 
+    flex-direction: column;
+    padding-top: 75px;
+    width: 100%;
+}
 
+.zagolovok-two-two {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(207, 226, 255);
+    font-size: 65px;
+    text-shadow: 1px 1px 10px rgb(0, 33, 82);
+    margin-bottom: 40px;
+}
+
+.main-text-two-two {
+    color: rgb(207, 226, 255);
+    font-size: 20px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+}
+
+/* Нижний колонтитул */
+
+.footer {
+    min-height: 400px;
+    background-color: #262626;
+}
+
+.header-of-the-footer {
+    padding-top: 30px;
+    color: white;
+}
+
+.about-the-company {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   
+}
+
+.points-about-the-company{
+    text-decoration: none;
+    display: inline-flex; 
+   flex-direction: column;
+   color: white;
+}
+
+
+.customers{
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex; 
+   flex-direction: column;
+}
+
+
+.partners{
+    font-size: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.lower-band {
+    padding-top: 60px;
+}
+   
+
+.something {
+    padding-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.phone-number {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-top: 155px;
+}
+
+.address {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-top: 155px;
+}
