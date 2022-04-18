@@ -1,6 +1,6 @@
 /* Шапка  */
 .header {
-    background-image: url(../img/background_picture_one.jpg);
+    background-image: url(../img/bands5.png);
     min-height: 900px;
     background-size: cover;
     background-position: center;
@@ -65,7 +65,7 @@ li a:hover {
 /* Освновные направления деятельности */
 
 .section-one {
-    background-image: url(../img/bands.jpg);
+    background-image: url(../img/bands4.jpg);
     min-height: 750px;
     background-size: cover;
     background-position: center; 
