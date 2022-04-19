@@ -1,24 +1,26 @@
 /* Шапка  */
 .header {
-    background-image: url(../img/bands5.png);
-    min-height: 900px;
+    background: linear-gradient(rgba(82, 87, 177, 0.432), rgba(38, 40, 85, 0.548)), url(../img/bands1.png);
+    min-height: 500px;
     background-size: cover;
     background-position: center;
 }
 
+
 li {
     display: inline-flex;
-    padding-left: 65px;
+    padding-left: 60px;
    
 }
 
 li a {
-    margin-top: 50px;
+    margin-top: 40px;
     color: rgb(207, 226, 255);
     text-transform: uppercase;
     text-decoration: none;
     font-size: large;
     font-weight: bold;
+    font-size: 12px;
     
 }
 
@@ -32,13 +34,13 @@ li a:hover {
     top: 40px;
     min-height: 100px;
     /* border-style: solid; */
-    box-shadow: 0px 0px 10px rgb(24, 0, 112);
+    /* box-shadow: 0px 0px 10px rgb(24, 0, 112); */
     background-color: rgb(0, 33, 82);
 }
 
 .main-flex {
     display: flex;
-    min-height: 700px;
+    min-height: 400px;
 }
 
 .second-flex {
@@ -52,12 +54,12 @@ li a:hover {
 }
 
 .zagone {
-    font-size: 75px;
+    font-size: 40px;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
 }
 
 .zagtwo {
-    font-size: 40px;
+    font-size: 20px;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
 }
 
@@ -65,15 +67,19 @@ li a:hover {
 /* Освновные направления деятельности */
 
 .section-one {
-    background-image: url(../img/bands4.jpg);
-    min-height: 750px;
+    /* background: linear-gradient(rgba(42, 45, 97, 0.721), rgba(0, 0, 0, 0.5)), url(../img/bands2.jpg); */
+    /* background: rgba(255, 0, 0, 0.45); */
+    /* background-image: url(../img/bands5.jpg); */
+    background: linear-gradient(rgb(0, 24, 70), rgba(139, 186, 255, 0.5));
+    min-height: 500px;
     background-size: cover;
     background-position: center; 
+    padding-bottom: 30px;
 }
 
-.directions {
+.directions-one {
     display: flex;
-    min-height: 700px;
+    min-height: 470px;
 }
 
 .one {
@@ -81,34 +87,36 @@ li a:hover {
 }
 
 .zagolovok {
+    /* margin-top: 30px; */
     font-weight: bold;
     color: rgb(207, 226, 255);
-    font-size: 65px;
+    font-size: 35px;
     text-shadow: 1px 1px 10px rgb(0, 33, 82);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .main-text {
     color: rgb(207, 226, 255);
-    font-size: 25px;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
-}
+    font-size: 16px;
+    text-shadow: 2px 2px 10px rgb(0, 33, 82);
 
+}
 
 
 /* Стратегические цели и задачи */
 
 .section-two {
-    /* background-image: url(../img/bands.jpg); */
-    min-height: 750px;
+    background: linear-gradient(rgba(42, 45, 97, 0.721), rgba(0, 0, 0, 0.5)), url(../img/bands2.jpg);
+    min-height: 400px;
     /* background-size: cover;
     background-position: center;  */
-    background: linear-gradient(to right, rgb(207, 226, 255) 61%, rgb(0, 33, 82) 39%);
+    /* background: rgb(0, 33, 82); */
 }
 
-.directions {
+.directions-two {
     display: flex;
-    min-height: 700px;
+    min-height: 400px;
+
 }
 
 .two {
@@ -116,48 +124,57 @@ li a:hover {
 }
 
 .strategic-objectives {
-    min-height: 750px;
+    min-height: 400px;
     display: inline-flex; 
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 80px;
     width: 100%;
+    background-color: rgba(188, 215, 255, 0.5);
+    padding-right: 30px;
+    padding-left: 30px;
     
 }
 .zagolovok-two {
+    text-align: center;
     font-weight: bold;
     color: rgb(0, 33, 82);
-    font-size: 65px;
+    font-size: 40px;
     /* text-shadow: 1px 1px 10px rgb(0, 33, 82); */
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .main-text-two {
+    text-align: center;
     color: rgb(0, 33, 82);
-    font-size: 25px;
+    font-size: 20px;
     /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
 }
 /* Задачи */
 .tasks {
-    min-height: 750px;
+    font-weight: bold;
+    min-height: 400px;
     display: inline-flex; 
     flex-direction: column;
-    padding-top: 75px;
-    width: 100%;
+    padding-top: 50px;
+    /* padding-bottom: 55px; */
+    background-color: rgba(188, 215, 255, 0.5);
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .zagolovok-two-two {
     text-align: center;
     font-weight: bold;
-    color: rgb(207, 226, 255);
-    font-size: 65px;
-    text-shadow: 1px 1px 10px rgb(0, 33, 82);
-    margin-bottom: 40px;
+    color: rgb(0, 33, 82);
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 .main-text-two-two {
-    color: rgb(207, 226, 255);
-    font-size: 20px;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    /* padding-right: auto; */
+    text-align: center;
+    color: rgb(0, 33, 82);
+    font-size: 15px;
 }
 
 /* Нижний колонтитул */
