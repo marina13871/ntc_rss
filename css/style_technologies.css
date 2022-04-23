@@ -4,7 +4,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 
@@ -14,7 +14,7 @@ li {
    
 }
 
-li a {
+nav li a {
     margin-top: 40px;
     color: rgb(207, 226, 255);
     text-transform: uppercase;
@@ -25,7 +25,7 @@ li a {
     
 }
 
-li a:hover {
+nav li a:hover {
     color:rgb(0, 106, 255);
 }
 
@@ -36,35 +36,58 @@ li a:hover {
     min-height: 100px;
     background-color: rgb(0, 33, 82);
 }
-/* Сертификаты */
-.zagolovok-certificates {
+
+/* Технологии */
+.zagolovok-technologies {
     color: rgb(207, 226, 255);
     padding-top: 100px;
     font-size: 40px;
     font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.technology-names {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+    display: inline-flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(207, 226, 255);
+    text-align: center;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.5));
+}
+ 
+.lines {
+    display: inline-flex;
+    background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.5));
+    
+}
+
+.item {
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(207, 226, 255);
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
 }
 
-.main-certificates-one {
-    display: inline-flex;
-    padding-top: 100px;
-}
-.main-certificates-two {
-    display: inline-flex;
-    padding-top: 100px;
-}
-.main-certificates-three {
-    display: inline-flex;
-    padding-top: 100px;
-}
-.main-certificates-four {
-    display: inline-flex;
-    padding-top: 100px;
+.item:hover {
+    color: rgb(207, 226, 255);
 }
 
-/* нижняя часть */
+/* Нижний колонтитул */
 
 .footer {
+    margin-top: 30px;
     min-height: 400px;
     background-color: #262626;
 }
@@ -73,7 +96,6 @@ li a:hover {
     padding-top: 30px;
     color: white;
     font-size: 30px;
-    /* <!-- поправить размер  --> */
 }
 
 .about-the-company {
@@ -135,3 +157,5 @@ li a:hover {
     color: white;
     padding-top: 155px;
 }
+
+
