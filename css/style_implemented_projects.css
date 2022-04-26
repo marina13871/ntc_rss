@@ -1,19 +1,19 @@
 /* Шапка  */
 .header {
-    background: linear-gradient(rgba(82, 87, 177, 0.432), rgba(38, 40, 85, 0.548)), url(../img/bands1.png);
+    background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands1.png);
     min-height: 500px;
     background-size: cover;
     background-position: center;
 }
 
 
-li {
+.navmain li {
     display: inline-flex;
     padding-left: 60px;
    
 }
 
-li a {
+.navmain li a {
     margin-top: 40px;
     color: rgb(207, 226, 255);
     text-transform: uppercase;
@@ -24,7 +24,7 @@ li a {
     
 }
 
-li a:hover {
+.navmain li a:hover {
     color:rgb(0, 106, 255);
 }
 
@@ -44,12 +44,21 @@ li a:hover {
     padding-top: 100px;
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
+}
+
+.zagolovok-tsos {
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    text-shadow: 2px 2px 10px rgb(0, 13, 129);
 }
 
 .implemented_projects-names {
     padding-top: 30px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding-bottom: 25px;
     display: inline-flex;
     text-decoration: none;
@@ -59,44 +68,95 @@ li a:hover {
     color: rgb(207, 226, 255);
     text-align: center;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.5));
+    background-color: rgb(0, 33, 82);
+    background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7)); 
 }
 
-.implemented_projects-names-two {
-    padding-top: 20px;
-    margin-bottom: 10px;
-    padding-bottom: 20px;
+.implemented_projects-names-one {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 25px;
     display: inline-flex;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     color: rgb(207, 226, 255);
     text-align: center;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    background: linear-gradient(rgba(215, 215, 215, 0.5), rgba(97, 98, 122, 0.721));
+    background: linear-gradient( rgba(0, 33, 82, 0.1), rgba(0, 33, 82, 0.7)); 
 }
 
+/* Нижний колонтитул */
 
-.lines {
-    display: inline-flex;
-    background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.5));
-    
+.footer {
+    margin-top: 130px;
+    min-height: 400px;
+    background-color: #262626;
 }
 
-.item {
+.header-of-the-footer {
     padding-top: 30px;
-    /* margin-left: 30px; */
-    margin-right: 60px;
-    margin-bottom: 30px;
-    display: inline-flex;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: rgb(207, 226, 255);
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    color: white;
+    font-size: 30px;
 }
 
-.item:hover {
-    color: rgb(207, 226, 255);
+.about-the-company {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   text-decoration: none;
+   font-size: 20px;
+   color: white;
+   
+}
+
+.points-about-the-company{
+    text-decoration: none;
+    display: inline-flex; 
+   flex-direction: column;
+   color: white;
+}
+
+
+.customers{
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    display: inline-flex; 
+   flex-direction: column;
+}
+
+
+.partners{
+    font-size: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.lower-band {
+    padding-top: 60px;
+}
+   
+
+.something {
+    padding-top: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.phone-number {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-top: 155px;
+}
+
+.address {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding-top: 155px;
 }
