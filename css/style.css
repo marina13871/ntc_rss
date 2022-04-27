@@ -1,8 +1,13 @@
 /* Шапка  */
-.header {
-    background: linear-gradient(rgba(82, 87, 177, 0.432), rgba(38, 40, 85, 0.548)), url(../img/bands1.png);
-    min-height: 500px;
+body {
+    background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands1.png);
     background-size: cover;
+}
+.header {
+    /* background: linear-gradient(rgba(194, 195, 209, 0.3), rgba(194, 195, 209, 0.3)), url(../img/bands1.png); */
+    /* background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands1.png); */
+    min-height: 500px;
+    /* background-size: cover; */
     background-position: center;
 }
 
@@ -67,14 +72,16 @@ li a:hover {
 /* Освновные направления деятельности */
 
 .section-one {
-    /* background: linear-gradient(rgba(42, 45, 97, 0.721), rgba(0, 0, 0, 0.5)), url(../img/bands2.jpg); */
+   background: linear-gradient(rgba(188, 215, 255, 0.359), rgba(188, 215, 255, 0.359));
     /* background: rgba(255, 0, 0, 0.45); */
     /* background-image: url(../img/bands5.jpg); */
-    background: linear-gradient(rgb(0, 24, 70), rgba(139, 186, 255, 0.5));
+    /* background: url(../img/bands2.jpg); */
     min-height: 500px;
     background-size: cover;
     background-position: center; 
     padding-bottom: 30px;
+    border-style: solid;
+    /* background-color: rgb(0, 33, 82); */
 }
 
 .directions-one {
@@ -89,16 +96,16 @@ li a:hover {
 .zagolovok {
     /* margin-top: 30px; */
     font-weight: bold;
-    color: rgb(207, 226, 255);
+    color: rgb(226, 233, 243);
     font-size: 35px;
-    text-shadow: 1px 1px 10px rgb(0, 33, 82);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
     margin-bottom: 30px;
 }
 
 .main-text {
-    color: rgb(207, 226, 255);
+    color: rgb(226, 233, 243);
     font-size: 16px;
-    text-shadow: 2px 2px 10px rgb(0, 33, 82);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
 
 }
 
@@ -106,11 +113,13 @@ li a:hover {
 /* Стратегические цели и задачи */
 
 .section-two {
-    background: linear-gradient(rgba(42, 45, 97, 0.721), rgba(0, 0, 0, 0.5)), url(../img/bands2.jpg);
+    /* background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands1.png); */
     min-height: 400px;
     /* background-size: cover;
     background-position: center;  */
     /* background: rgb(0, 33, 82); */
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 
 .directions-two {
@@ -129,10 +138,10 @@ li a:hover {
     flex-direction: column;
     padding-top: 80px;
     width: 100%;
-    background-color: rgba(188, 215, 255, 0.5);
+    background-color: rgba(188, 215, 255, 0.359);
     padding-right: 30px;
     padding-left: 30px;
-    
+    border-style: solid;
 }
 .zagolovok-two {
     text-align: center;
@@ -141,11 +150,14 @@ li a:hover {
     font-size: 40px;
     /* text-shadow: 1px 1px 10px rgb(0, 33, 82); */
     margin-bottom: 30px;
+    color: rgb(226, 233, 243);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
 }
 
 .main-text-two {
     text-align: center;
-    color: rgb(0, 33, 82);
+    color: rgb(226, 233, 243);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
     font-size: 20px;
     /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
 }
@@ -157,15 +169,17 @@ li a:hover {
     flex-direction: column;
     padding-top: 50px;
     /* padding-bottom: 55px; */
-    background-color: rgba(188, 215, 255, 0.5);
+    background-color: rgba(188, 215, 255, 0.359);
     padding-right: 30px;
     padding-left: 30px;
+    border-style: solid;
 }
 
 .zagolovok-two-two {
     text-align: center;
     font-weight: bold;
-    color: rgb(0, 33, 82);
+    color: rgb(226, 233, 243);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
     font-size: 40px;
     margin-bottom: 30px;
 }
@@ -173,7 +187,8 @@ li a:hover {
 .main-text-two-two {
     /* padding-right: auto; */
     text-align: center;
-    color: rgb(0, 33, 82);
+    color: rgb(226, 233, 243);
+    text-shadow: 1px 1px 1px rgb(0, 33, 82);
     font-size: 15px;
 }
 

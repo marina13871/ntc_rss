@@ -1,6 +1,6 @@
 /* Шапка  */
 .header {
-    background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands1.png);
+    background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands2.jpg);
     min-height: 500px;
     background-size: cover;
     background-position: center;
@@ -40,11 +40,10 @@
 
 /* Реализованные проекты */
 .zagolovok-implemented_projects {
-    color: rgb(207, 226, 255);
+    color: rgb(0, 33, 82);
     padding-top: 100px;
     font-size: 40px;
     font-weight: bold;
-    padding-bottom: 30px;
 }
 
 .zagolovok-tsos {
@@ -53,7 +52,8 @@
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 30px;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    text-shadow: 2px 2px 20px rgba(0, 33, 82, 0.7);
+    text-align: center;
 }
 
 .implemented_projects-names {
@@ -64,12 +64,13 @@
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 20px;
-    color: rgb(207, 226, 255);
+    font-size: 18px;
+    color: rgb(224, 236, 255);
     text-align: center;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    background-color: rgb(0, 33, 82);
+    /* background-color: rgb(0, 13, 129); */
     background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7)); 
+    box-shadow: 0 0 15px rgb(225, 255, 255);
 }
 
 .implemented_projects-names-one {
@@ -81,10 +82,10 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
-    color: rgb(207, 226, 255);
+    color: rgb(224, 236, 255);
     text-align: center;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    background: linear-gradient( rgba(0, 33, 82, 0.1), rgba(0, 33, 82, 0.7)); 
+    text-shadow: 2px 2px 1px rgb(0, 13, 129);
+    background: linear-gradient( rgba(0, 33, 82, 0.1), rgba(121, 145, 181, 0.382)); 
 }
 
 /* Нижний колонтитул */

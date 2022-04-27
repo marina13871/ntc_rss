@@ -4,7 +4,7 @@
     height: 100%;
     background-size: cover;
     background-position: center;
-    /* padding-bottom: 30px; */
+    padding-bottom: 30px;
 }
 
 
@@ -14,7 +14,7 @@ li {
    
 }
 
-nav li a {
+li a {
     margin-top: 40px;
     color: rgb(207, 226, 255);
     text-transform: uppercase;
@@ -25,7 +25,7 @@ nav li a {
     
 }
 
-nav li a:hover {
+li a:hover {
     color:rgb(0, 106, 255);
 }
 
@@ -37,61 +37,79 @@ nav li a:hover {
     background-color: rgb(0, 33, 82);
 }
 
-/* Технологии */
-.zagolovok-technologies {
+/* Контакты */
+.contactsss {
+    margin-top: 50px;
+    padding-bottom: 150px;
+    background: linear-gradient(rgba(208, 208, 228, 0.9), rgba(87, 90, 143, 0.9));
+}
+
+.zagolovok-contacts {
     color: rgb(0, 33, 82);
     padding-top: 100px;
     font-size: 40px;
     font-weight: bold;
+    
+}
+
+.zagolovok-contacts:hover {
+    color: rgb(0, 33, 82);
+}
+
+.points {
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.zagolovki {
+    color:rgb(0, 33, 82);
+    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.zagolovki:hover {
+    color:rgb(0, 33, 82);
+}
+
+.signature {
+    color: rgb(0, 33, 82);
+    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.signature:hover {
+    color:rgb(0, 33, 82);
+}
+
+.pointss {
+    padding-top: 50px;
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid rgb(0, 33, 82);
     padding-bottom: 30px;
 }
 
-.technology-names {
-    padding-top: 30px;
-    margin-bottom: 20px;
-    padding-bottom: 25px;
-    display: inline-flex;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 18px;
-    color: rgb(207, 226, 255);
-    text-align: center;
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    /* background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.2)); */
-    /* background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7));  */
-    background-color: rgba(0, 33, 82, 0.8);
-    box-shadow: 0 0 15px rgb(225, 255, 255);
-}
- 
-.lines {
-    display: inline-flex;
-    /* background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7)); */
-    box-shadow: 0 0 15px rgb(225, 255, 255);
-    background-color: rgba(0, 33, 82, 0.8);
+.pointss:hover {
+    color:rgb(0, 33, 82);
 }
 
-.item {
-    padding-top: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 30px;
-    display: inline-flex;
+.signaturee {
+    color: rgb(0, 33, 82);
+    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
     text-decoration: none;
-    font-weight: bold;
-    font-size: 15px;
-    color: rgb(207, 226, 255);
-    text-shadow: 2px 2px 10px rgb(0, 13, 129);
+    font-size: 22px;
 }
 
-.item:hover {
-    color: rgb(207, 226, 255);
+.signaturee:hover {
+    color:rgb(0, 33, 82);
 }
 
 /* Нижний колонтитул */
 
 .footer {
-    margin-top: 130px;
+    margin-top: 100px;
     min-height: 400px;
     background-color: #262626;
 }
@@ -161,5 +179,3 @@ nav li a:hover {
     color: white;
     padding-top: 155px;
 }
-
-
