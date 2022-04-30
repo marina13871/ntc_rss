@@ -1,32 +1,16 @@
-/* Шапка  */
-.header {
+body {
     background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands2.jpg);
-    height: 100%;
     background-size: cover;
     background-position: center;
+}
+
+/* Шапка  */
+.header {
+    /* background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands2.jpg); */
+    height: 100%;
+    /* background-size: cover;
+    background-position: center; */
     /* padding-bottom: 30px; */
-}
-
-
-li {
-    display: inline-flex;
-    padding-left: 60px;
-   
-}
-
-nav li a {
-    margin-top: 40px;
-    color: rgb(207, 226, 255);
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: large;
-    font-weight: bold;
-    font-size: 12px;
-    
-}
-
-nav li a:hover {
-    color:rgb(0, 106, 255);
 }
 
 
@@ -34,7 +18,55 @@ nav li a:hover {
     position: relative;
     top: 40px;
     min-height: 100px;
+    /* border-style: solid; */
+    /* box-shadow: 0px 0px 10px rgb(24, 0, 112); */
     background-color: rgb(0, 33, 82);
+}
+
+nav {
+    padding-top: 30px;
+}
+ nav ul {
+     list-style: none;
+ }
+
+ nav > ul > li {
+     float: left;
+ }
+
+ nav ul::after {
+     content: "";
+     display: flex;
+     clear: both;
+ }
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(207, 226, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-size: 12px;
+    /* padding-top: 40px;
+    padding-bottom: 30px; */
+ }
+
+nav ul li a:hover {
+    color:rgb(0, 33, 82);
+    background-color: white;
+} 
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 33, 82) ;
+}
+
+
+nav ul li:hover ul {
+    display: block;
 }
 
 /* Сертификаты */
