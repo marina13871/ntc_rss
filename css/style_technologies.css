@@ -7,7 +7,6 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    /* padding-bottom: 30px; */
 }
 
 
@@ -15,8 +14,6 @@ body {
     position: relative;
     top: 40px;
     min-height: 100px;
-    /* border-style: solid; */
-    /* box-shadow: 0px 0px 10px rgb(24, 0, 112); */
     background-color: rgb(0, 33, 82);
 }
 
@@ -46,8 +43,6 @@ nav ul li a {
     font-size: large;
     font-weight: bold;
     font-size: 12px;
-    /* padding-top: 40px;
-    padding-bottom: 30px; */
  }
 
 nav ul li a:hover {
@@ -95,15 +90,12 @@ nav ul li:hover ul {
     color: rgb(207, 226, 255);
     text-align: center;
     text-shadow: 2px 2px 10px rgb(0, 13, 129);
-    /* background: linear-gradient(rgba(97, 98, 122, 0.721), rgba(0, 0, 0, 0.2)); */
-    /* background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7));  */
     background-color: rgba(0, 33, 82, 0.8);
     box-shadow: 0 0 15px rgb(225, 255, 255);
 }
  
 .lines {
     display: inline-flex;
-    /* background: linear-gradient( rgba(0, 33, 82, 0.7), rgba(0, 33, 82, 0.7)); */
     box-shadow: 0 0 15px rgb(225, 255, 255);
     background-color: rgba(0, 33, 82, 0.8);
 }

@@ -6,11 +6,7 @@ body {
 
 /* Шапка  */
 .header {
-    /* background: linear-gradient(rgba(127, 130, 185, 0.432), rgba(87, 90, 143, 0.363)), url(../img/bands2.jpg); */
     height: 100%;
-    /* background-size: cover;
-    background-position: center; */
-    /* padding-bottom: 30px; */
 }
 
 
@@ -18,8 +14,6 @@ body {
     position: relative;
     top: 40px;
     min-height: 100px;
-    /* border-style: solid; */
-    /* box-shadow: 0px 0px 10px rgb(24, 0, 112); */
     background-color: rgb(0, 33, 82);
 }
 
@@ -49,8 +43,6 @@ nav ul li a {
     font-size: large;
     font-weight: bold;
     font-size: 12px;
-    /* padding-top: 40px;
-    padding-bottom: 30px; */
  }
 
 nav ul li a:hover {
@@ -93,7 +85,6 @@ nav ul li:hover ul {
     color: rgb(0, 33, 82);
     font-size: 25px;
     font-weight: bold;
-    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
     padding-bottom: 60px;
     background-color: rgb(89, 43, 226);
     text-align: center;
@@ -110,7 +101,6 @@ nav ul li:hover ul {
 
 figcaption {
     color: rgb(0, 33, 82);
-    /* text-shadow: 2px 2px 10px rgb(0, 13, 129); */
     font-weight: bold;
     text-align: center;
     font-size: 25px;
